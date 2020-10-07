@@ -25,7 +25,7 @@ class Crawl extends Controller
         set_time_limit(3000);
         
         $browser = new HttpBrowser(HttpClient::create());
-        for ($page = 1; $page <= 1; $page++) {
+        for ($page = 1; $page <= 14; $page++) {
             echo "The number is: $page <br>";
         
             if($page == 1){
